@@ -1,0 +1,55 @@
+#sectionDue {
+  background-color: $rosa;
+  height: 100%;
+  width: 100%;
+
+  .wrapTraditionalCard {
+    height: 450px;
+    h2 {
+      font-size: 27px;
+      text-align: center;
+      padding: 100px 100px 80px;
+    }
+
+    .wrapCard > div {
+      float: left;
+      width: calc(100% / 3);
+      height: 200px;
+
+      .cardImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+
+        img {
+          max-width: 140px;
+        }
+      }
+
+      .cardTitle {
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+  }
+  .rabbitImgcontainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+    text-align: center;
+      img {
+        max-width: 250px;
+      }
+      h4 {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 100px;
+      }
+  }
+  .riga {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+  }
+}

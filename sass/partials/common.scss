@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: $marroneTesto;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.containerMini {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: $bluTesto;
+}

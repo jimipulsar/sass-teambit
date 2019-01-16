@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #58402c;
+  font-size: 13px;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.small-container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #30488f;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  background-color: #fff;
+}
+
+header #main-menu {
+  display: flex;
+  height: 100%;
+  border-bottom: 1px solid grey;
+  padding: 41px;
+}
+
+header #main-menu #wrapLogo {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+header #main-menu #main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+header #main-menu #main-nav ul {
+  list-style-type: none;
+}
+
+header #main-menu #main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+header #main-menu #main-nav ul li a:hover {
+  color: #30488f;
+}
+
+header #main-menu #main-nav button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10px;
+  background-color: #fff;
+  color: #30488f;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+  font-weight: bold;
+  width: 119px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+header #main-menu #main-nav button i {
+  margin-right: 10px;
+}
+
+header #main-menu #main-nav button:hover {
+  background-color: #30488f;
+  color: #fff;
+}
+
+header #main-menu #main-nav button:hover i {
+  color: #fff;
+}
+
+#sectionUno {
+  width: 85%;
+  margin: auto;
+  height: 92vh;
+}
+
+#sectionUno #wrap-section-uno {
+  display: flex;
+  /* padding: 45px; */
+}
+
+#sectionUno #wrap-section-uno > div {
+  width: 50%;
+  height: 100%;
+}
+
+#sectionUno #wrap-section-uno #wrap-left {
+  margin-top: 70px;
+  padding: 32px;
+}
+
+#sectionUno #wrap-section-uno #wrap-left #wrap-leftText h2 {
+  font-size: 40px;
+}
+
+#sectionUno #wrap-section-uno #wrap-left #wrap-leftText h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 27px;
+  font-weight: lighter;
+}
+
+#sectionUno #wrap-section-uno #wrap-left #wrap-leftText button {
+  background-color: #30488f;
+  color: #fff;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+}
+
+#sectionUno #wrap-section-uno #wrap-left #wrap-leftText button i {
+  color: #fff;
+  margin-right: 15px;
+}
+
+#sectionUno #wrap-section-uno #wrap-left #wrap-leftText button:hover {
+  background-color: #233569;
+}
+
+#sectionUno #wrap-section-uno #wrap-left #wrap-leftText .wrapButton {
+  margin-top: 20px;
+}
+
+#sectionUno #wrap-section-uno #right-content {
+  margin-top: 70px;
+}
+
+#sectionUno #wrap-section-uno #right-content img {
+  max-width: 500px;
+  height: auto;
+}
+
+#sectionDue {
+  background-color: #ffe7d2;
+  height: 100%;
+  width: 100%;
+}
+
+#sectionDue .wrapTraditionalCard {
+  height: 450px;
+}
+
+#sectionDue .wrapTraditionalCard h2 {
+  font-size: 27px;
+  text-align: center;
+  padding: 84px 93px 75px;
+  width: 100%;
+}
+
+#sectionDue .wrapTraditionalCard .wrap-card > div {
+  float: left;
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+#sectionDue .wrapTraditionalCard .wrap-card > div .cardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+#sectionDue .wrapTraditionalCard .wrap-card > div .cardImg img {
+  max-width: 140px;
+}
+
+#sectionDue .wrapTraditionalCard .wrap-card > div .cardTitle {
+  text-align: center;
+  font-size: 14px;
+}
+
+#sectionDue .rabbit-img {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+#sectionDue .rabbit-img img {
+  max-width: 250px;
+}
+
+#sectionDue .rabbit-img h4 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 100px;
+}
+
+#sectionDue .divider {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+#sectionTre {
+  width: 100%;
+  height: 100%;
+}
+
+#sectionTre .wrapContentGenerale {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 52px;
+}
+
+#sectionTre .wrapContentGenerale > div {
+  height: 500px;
+}
+
+#sectionTre .wrapContentGenerale .contentLeft {
+  width: 60%;
+}
+
+#sectionTre .wrapContentGenerale .contentLeft img {
+  max-width: 580px;
+}
+
+#sectionTre .wrapContentGenerale .contentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 41%;
+  padding-left: 72px;
+  padding-right: 30px;
+}
+
+#sectionTre .wrapContentGenerale .contentRight h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+#sectionTre .wrapContentGenerale .contentRight p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#sectionTre .wrapContentGenerale .contentRight a {
+  font-size: 20px;
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGenerale .contentRight a:hover {
+  color: #233569;
+}
+
+#sectionTre .wrapContentGenerale .contentRight a i {
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGenerale .contentRight img {
+  max-width: 240px;
+}
+
+#sectionTre .wrapContentGeneraleSx {
+  display: flex;
+  display: flex;
+}
+
+#sectionTre .wrapContentGeneraleSx > div {
+  height: 500px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 53%;
+  padding-left: 63px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx h2 {
+  font-size: 22px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx p {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx a {
+  font-size: 20px;
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx a:hover {
+  color: #233569;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx a i {
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx img {
+  max-width: 240px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentRightDx {
+  width: 40%;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentRightDx img {
+  max-width: 490px;
+}

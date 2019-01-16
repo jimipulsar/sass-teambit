@@ -1,0 +1,91 @@
+#sectionTre {
+  width: 100%;
+  height: 100%;
+   .wrapContentGenerale {
+     display: flex;
+     padding-top: 80px;
+     padding-bottom: 120px;
+     & > div {
+       height: 500px;
+     }
+     .contentLeft {
+       width: 60%;
+       img {
+         max-width: 800px;
+       }
+     }
+     .contentRight {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       width: 40%;
+       padding-left: 30px;
+       padding-right: 30px;
+       h2 {
+         font-size: 30px;
+         text-align: left;
+       }
+       p {
+         font-size: 20px;
+         font-weight: lighter;
+       }
+       a {
+         font-size: 20px;
+         color: $bluTesto;
+         &:hover {
+           color: $bluScuroHover;
+         }
+          i {
+            color: $bluTesto;
+          }
+       }
+       img {
+         max-width: 240px;
+       }
+     }
+
+   }
+   .wrapContentGeneraleSx {
+     display: flex;
+
+     & > div {
+       height: 500px;
+     }
+     display: flex;
+     .contentLeftSx {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       width: 60%;
+       padding-left: 300px;
+       h2 {
+         font-size: 25px;
+       }
+       p {
+         font-size: 20px;
+         font-weight: lighter;
+
+       }
+       a {
+         font-size: 20px;
+         color: $bluTesto;
+         &:hover {
+           color: $bluScuroHover;
+         }
+          i {
+            color: $bluTesto;
+          }
+       }
+       img {
+         max-width: 240px;
+       }
+     }
+     .contentRightDx {
+       width: 40%;
+       img {
+         max-width: 700px;
+       }
+     }
+   }
+
+}

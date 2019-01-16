@@ -1,0 +1,59 @@
+@mixin btnBaseBlu {
+  background-color: $bluTesto;
+  color: $bianco;
+  font-size: 13px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid $bluTesto;
+}
+#sectionUno {
+  height: 700px;
+  width: 100%;
+
+  #wrapSectionUnoContent {
+    display: flex;
+    &>div {
+      width: 50%;
+      height: 100%;
+    }
+    & #wrapleftContent {
+      margin-top: 70px;
+      #wrapleftContentText {
+        h2 {
+          font-size: 55px;
+        }
+        h4 {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-size: 27px;
+          font-weight: lighter;
+        }
+        button {
+          @include btnBaseBlu;
+          i {
+            color: $bianco;
+            margin-right: 15px;
+          }
+          &:hover {
+            background-color: $bluScuroHover;
+          }
+        }
+
+        & .wrapButton {
+          margin-top: 20px;
+
+        }
+      }
+    }
+    & #rightContent {
+      margin-top: 70px;
+      img {
+        max-width: 675px;
+        height: auto;
+      }
+    }
+  }
+}
